@@ -1,0 +1,207 @@
+/*最外圍設定*/
+.all{
+	max-width: 1024px;
+	margin: auto;
+
+}
+
+/*封面照片*/
+.coverpic{
+	width;100%;
+	height: 496px;
+	background: url(../images/header.png);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	/*外部div控制裡面的div的擺放位置*/
+	flex-direction: column;
+	/*直列往下擺，照順序*/
+	align-items: center;
+	/*垂直的空間設定分佈均勻*/
+}
+/*標題設定*/
+.coverpic_title{
+	font-family: PingFangTC-Regular;
+	font-size: 40px;
+	color: #fff;
+	letter-spacing: 3.89px;
+	padding-top: 89px;
+	margin-bottom: 96px;
+}
+/*選單設定*/
+.devices{
+	width: 44%;
+	height: 48px;
+	font-size: 1.5rem;
+	border: 1px solid #000;
+	color: #5f5f5f;
+}
+/*按鈕區塊*/
+.popmenu{
+	width: 78%;
+	background-color: #fff;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	position: absolute;
+	bottom: 50px;
+	z-index: 2;
+}
+.popmenu_title{
+	color: black;
+	font-size: 18px;
+	columns: #000000;
+	margin-top: 20px;
+	margin-left: 26px;
+	margin-bottom: 14px;
+}
+.popmenu_result{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 18px;
+	color: white;
+}
+.popmenu_box{
+	padding: 11px 0px;
+	width: 16%;
+	text-align: center;
+	border-radius: 5px;
+	transition: background-color 0.3s;
+}
+.popmenu_box:hover{
+	background-color: rgba(0, 0, 0, 0.4);
+	transition: background-color 0.3s;
+}
+.popmenu_box:active{
+	background-color: rgba(0, 0, 0, 0.6)
+}
+.bk1{
+	background-color: #8a82cc;
+}
+.bk2{
+	background-color: #ffa782;
+}
+.bk3{
+	background-color: #f5d005;
+}
+.bk4{
+	background-color: #559ac8;
+}
+
+.contentTop{
+	width: 100%;
+	height: 100px;
+	background: white;
+	border-bottom: 5px dotted #559ac8;
+	position: absolute;
+	bottom: 0px;
+}
+
+.title{
+	width: 100%;
+	background-color: white;
+	font-size: 36px;
+	color: #8a82cc;
+	margin-bottom: 24px;
+	padding-top: 30px;
+	text-align: center;
+	font-family: PingFangTC-Regular;
+}
+
+/*內容區塊*/
+.content{
+	width: 98%;
+	margin: auto;
+	display: flex;
+	/*控制裡面的元素區塊分部位置*/
+	flex-wrap: wrap;
+	/*若超出容納元件，則自動換行*/
+	justify-content: space-between;
+	/*剩餘空間會分配在各元件之間*/
+	font-family: PingFangTC-Regular;
+}
+	/*內容呈現的資訊*/
+	.box{
+		width: 48%;
+		margin-bottom: 20px;
+		box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+	}
+	.pic{
+		width: 100%;
+		height: 155px;
+		background: url(https://raw.githubusercontent.com/hexschool/KCGTravel/master/image/%E6%9D%89%E6%9E%97%E5%8D%80/%E8%91%AB%E8%98%86%E9%9B%95%E5%88%BB%E8%97%9D%E8%A1%93%E9%A4%A8-8.jpg);
+		background-size: cover;
+		background-position: center;
+		display: flex;
+		justify-content: space-between;
+		/*空間在元件之間*/
+		align-items: flex-end;
+		/*元件放在底部（在每個空間的區域中）*/
+	}
+	.placetitle{
+		color: white;
+		font-size: 24px;
+		margin-left: 10px;
+		margin-bottom: 10px;
+	}
+	.zonetitle{
+		color: white;
+		font-size: 16px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+	.info{
+		display: flex;
+		align-items: cneter;
+		margin: 10px 20px;
+	}
+	.info_icon{
+		margin-right: 10px;
+		width: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.info_2{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 10px 20px;
+	}
+	.phone_ticket{
+		display: flex;
+	}
+
+/*分頁欄*/
+.btncontent{
+	display: flex;
+	justify-content: center;
+}
+.btncontent span{
+	border: 1px solid;
+	width: 50px;
+	line-height: 50px;
+	text-align: center;
+	margin: 10px;_re
+	font-size: 24px;
+}
+.btncontent span:hover{
+	background: #757575;
+	color: white;
+}
+
+
+footer{
+	text-align: center;
+	background: #559AC8;
+	max-width: 1024px;
+	margin: auto;
+}
+footer p {
+	color: #fff;
+	display: block;
+	
+
+}
+
+
+
